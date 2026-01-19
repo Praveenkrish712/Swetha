@@ -1,0 +1,25 @@
+HTML - Hyper text markup language( <html> </html> )
+
+* it is not a programming language
+* it is a markup language
+* to create a webpage
+* every site start with HTML
+
+1) Heading - h1 to h6
+
+2) paragraph - p
+
+3) hr
+
+4) br
+
+5) Text formatting - i, u, b or strong, sub, sup and mark
+
+6) Anchor tag - a (linking)
+
+7) Image tag - img
+
+8) list - ordered list and unordered list
+
+9) Tables - tr, th and td
+
