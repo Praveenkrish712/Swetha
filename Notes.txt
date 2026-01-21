@@ -23,3 +23,10 @@ HTML - Hyper text markup language( <html> </html> )
 
 9) Tables - tr, th and td
 
+10) Forms - placeholder, input, required, label and button
+
+11) Media Elements - video and audio
+
+12) Sematic tags - Header, footer, section, nav and main
+
+CSS
