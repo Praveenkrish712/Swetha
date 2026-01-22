@@ -1,0 +1,22 @@
+*{
+    background-color: gray;
+}
+
+h1{
+    color: yellow;
+}
+
+h2{
+    color: red;
+}
+
+.Selector > h1,
+.Selector > h2,
+.Selector > h3,
+.Selector > h4{
+    color: violet;
+}
+
+#one > h2{
+    color: pink;
+}

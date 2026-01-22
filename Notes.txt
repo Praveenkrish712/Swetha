@@ -29,4 +29,23 @@ HTML - Hyper text markup language( <html> </html> )
 
 12) Sematic tags - Header, footer, section, nav and main
 
-CSS
+
+CSS - Cascading Style sheet
+
+1) Types of CSS
+==> inline CSS
+==> internal CSS
+==> External CSS
+inline > internal > External
+
+2) CSS Syntax
+selector{
+    property: value;
+}
+
+3)Types of selector
+==> Elements selector - (h1) (h2) (p)
+==> class selector - (.) (no of times) - mutiple times we can use the same class name
+==> id selector - (#) (Unique) - only one time we can use the same id name
+==> Universal selector - (*) - to be apply with entire site
+==> Group selector - class or id name containes different tags, we want to change same Style means we go with Group selector
