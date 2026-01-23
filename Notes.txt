@@ -49,3 +49,30 @@ selector{
 ==> id selector - (#) (Unique) - only one time we can use the same id name
 ==> Universal selector - (*) - to be apply with entire site
 ==> Group selector - class or id name containes different tags, we want to change same Style means we go with Group selector
+
+4) color and background
+color:
+==> name 
+==> RGB
+==> HEX
+
+background:
+    background-image: url(./Assets/Joker.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+5) Text Styling:
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-weight: 100;
+    letter-spacing: 10px;
+
+6) Box Modeling
+==> content
+==> padding
+==> border
+==> margin
