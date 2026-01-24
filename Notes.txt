@@ -76,3 +76,14 @@ background:
 ==> padding
 ==> border
 ==> margin
+
+7) flex (display) - one dimensional layout system....
+i) using display property
+ii) flex direction - row, row-reverse, column, column-reverse
+iii) justify-content (X) - start, center, end, space-between, space-around, space-evenly
+iv) align-item (Y) (set the height) - start, center, end
+v) flex-wrap - no-wrap, wrap, wrap-reverse
+vi) gap - to be assign with values (px,%,rem,m,cm,vh,vw)
+vii) Align-content (Y) (set the height) (flex-wrap is enable then only it will work) - start, center, end, space-between, space-around, space-evenly
+viii) flex (on item) - using *flex:1*
+viv) order - change the visual order of the item
