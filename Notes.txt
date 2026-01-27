@@ -87,3 +87,12 @@ vi) gap - to be assign with values (px,%,rem,m,cm,vh,vw)
 vii) Align-content (Y) (set the height) (flex-wrap is enable then only it will work) - start, center, end, space-between, space-around, space-evenly
 viii) flex (on item) - using *flex:1*
 viv) order - change the visual order of the item
+
+8) position - moving one place to another place
+==> Stactic(deafult)
+==> Relative - to set the boundary(left,right,top,bottom)
+==> Absolute - To search the non-Stactic, if it is there means it will act as same relative no means go to the next parent)
+==> Fixed - it means its fix to the place
+==> Sticky - top-0 once reach the top-0 it will act as same Fixed
+
+

@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-h1{
+/* h1{
     color: yellow;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
@@ -14,11 +14,11 @@ h1{
     text-decoration: line-through;
     font-weight: 100;
     letter-spacing: 10px;
-}
-
+} */
+/* 
 h2{
     color: red;
-}
+} */
 
 .Selector > h1,
 .Selector > h2,
@@ -30,13 +30,13 @@ h2{
 #one > h2{
     color: #674587;
 }
-
+/* 
 p{
     background-image: url(./Assets/Joker.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 .Box-modeling{
     width: 200px;
@@ -130,4 +130,22 @@ p{
     width: 200px;
     height: 100px;
     background-color: darkkhaki;
+}
+
+.bluebox{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    margin-top: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.yellowbox{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /* position: fixed; */
+    /* left: 20px;
+    top: 30px; */
 }
