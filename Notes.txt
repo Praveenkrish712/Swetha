@@ -95,4 +95,4 @@ viv) order - change the visual order of the item
 ==> Fixed - it means its fix to the place
 ==> Sticky - top-0 once reach the top-0 it will act as same Fixed
 
-
+9) Grid (display) - two dimensional layout system
