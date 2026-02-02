@@ -96,3 +96,27 @@ viv) order - change the visual order of the item
 ==> Sticky - top-0 once reach the top-0 it will act as same Fixed
 
 9) Grid (display) - two dimensional layout system
+
+10) Transition and animation
+==> Transition - whenever we will hover some action will do
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.42, 0, 0,-1.15);
+    transition-delay: 3s;
+
+==> transform 
+    rotate(45deg)
+    scale(2)
+    translate(50px)
+
+==> animation - Whenever the site will reload some action will do
+ using keyframes and set from, to or 25%,50%,75% and 100%
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+11) Media Queries or Responsive Design
+==> Mobile      - 320px to 600px
+==> Tab         - 601px to 800px
+==> Lap/desktop - above 801px

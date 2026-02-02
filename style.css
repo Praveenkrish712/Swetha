@@ -233,3 +233,84 @@ p{
 .footer{
     grid-area: f;
 }
+
+.boxes{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: linear;
+    /* transition-delay: 3s; */
+}
+
+.boxes:hover{
+    width: 600px;
+    background-color: greenyellow;
+    transform: translateY(50px);
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes circle {
+    50%{
+        width: 200px;
+        height: 200px;
+        background-color: darkgrey;
+        left: 10px;
+        top: 10px;
+    }
+    75%{
+        width: 300px;
+        height: 300px;
+        background-color: yellowgreen;
+        left: 20px;
+        top: 20px;
+    }
+    100%{
+        width: 400px;
+        height: 400px;
+        background-color: violet;
+        left: 30px;
+        top: 30px;
+    }
+}
+
+
+@media screen and (max-width:801px) {
+    h1{
+        color: red;
+        background-color: black;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h2{
+        color: yellow;
+        background-color: gray;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+@media screen and (max-width:500px) {
+    p{
+        color: darkblue;
+        background-color: forestgreen;
+        text-align: center;
+        font-size: 50px;
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+}
